@@ -1,8 +1,8 @@
 cask "clui" do
-  version "0.1.2"
-  sha256 "e8c5a278a2ad5e52ae7996e4db7304753a9f96b4a4808e738aea6ac0146bdf55"
+  version "0.1.3"
+  sha256 "8fbfd574edb09a46c99d4b1db1876b2027426d2d5f6c9c159e22656e9504fe4c"
 
-  url "https://github.com/angelkaragiozov/clui/releases/download/v#{version}/clui_0.1.0_universal.dmg",
+  url "https://github.com/angelkaragiozov/clui/releases/download/v#{version}/clui_#{version}_universal.dmg",
       verified: "github.com/angelkaragiozov/clui/"
   name "CLUI"
   desc "Retro-style command-line UI desktop app"
