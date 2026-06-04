@@ -9,4 +9,10 @@ cask "clui" do
   homepage "https://github.com/angelkaragiozov/clui"
 
   app "clui.app"
+
+  postinstall do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/clui.app"],
+                   sudo: false
+  end
 end
