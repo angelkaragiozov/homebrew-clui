@@ -1,6 +1,6 @@
 cask "clui" do
-  version "0.1.3"
-  sha256 "8fbfd574edb09a46c99d4b1db1876b2027426d2d5f6c9c159e22656e9504fe4c"
+  version "0.1.4"
+  sha256 "084500213fa5a539de578c030480d8e7842b1f4e63b3be45be7dbc2ba74dde79"
 
   url "https://github.com/angelkaragiozov/clui/releases/download/v#{version}/clui_#{version}_universal.dmg",
       verified: "github.com/angelkaragiozov/clui/"
